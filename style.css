@@ -1,0 +1,109 @@
+/* container principal */
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* container para skills e personal skills */
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -18px;
+}
+
+/* tag para div que contém o nome */
+#caixa1 {
+  border: 3px solid grey;
+  height: 20vh;
+  width: 80vw;
+  margin-bottom: 2em;
+  text-align: center;
+}
+/* tag para biomedical engineer */
+#profissao {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  background: white;
+  width: 20%;
+  font-size: 0.8em;
+  padding: 0em;
+  left: 40%;
+}
+/* tag para estilizar e dimensionar o biomedical engineer */
+#titulo {
+  color: gray;
+  text-align: center;
+  position: sticky;
+}
+/* tag para div do lado esquerdo */
+#caixa2 {
+  width: 51.6%;
+}
+/* tag para div do lado direito */
+#caixa3 {
+  width: 30%;
+}
+/* tag para sublinhar titulos do curriculo */
+#sublinhado {
+  border-bottom: 3px solid gray;
+  width: 90%;
+}
+
+h1,
+h2,
+big {
+  color: teal;
+}
+
+p,
+h3 {
+  width: 89%;
+  margin-top: -9px;
+}
+
+/* tag para dimensionamento da lista */
+#lista {
+  margin-left: -20px;
+  margin-top: -15px;
+  width: 89%;
+}
+
+/* tag para estilizar subtitulos do curriculo */
+#fonte1 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+/* tag para estilizar datas do subtitulo */
+#fonte2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+/* tag para dimensionar o nível de habilidade */
+#tamanhoquadrado {
+  width: 22%;
+  margin-left: 250px;
+  margin-top: -33px;
+}
+
+/* tags para estilizar o nível de habilidade */
+#divcolorida {
+  background-color: teal;
+  height: 2vh;
+  width: 0.8vw;
+}
+
+#divsemcor {
+  background-color: #e0dfed;
+  height: 2vh;
+  width: 0.8vw;
+}
